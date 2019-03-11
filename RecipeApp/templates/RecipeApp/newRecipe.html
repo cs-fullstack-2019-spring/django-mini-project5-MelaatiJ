@@ -1,0 +1,9 @@
+{% extends 'RecipeApp/base.html' %}
+{% block content %}
+<h1>Create a New Recipe!</h1>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button>Submit</button>
+</form><a href="{% url 'home' %}">Back to home</a>
+{% endblock content %}

@@ -35,3 +35,5 @@ The profile page should allow you to edit the logged in users:
 
 ## Challenge
 Include a delete button
+<hr>
+2 points. All recipes not available. Edit profile is not available. Edit recipe is broken. Can view personal recipes minus the image.
